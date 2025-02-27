@@ -1,0 +1,86 @@
+.container {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b1b;
+  overflow: hidden;
+}
+
+.main {
+  height: 90%;
+  width: 95%;
+  display: flex;  
+  flex-direction: column;  
+  justify-content: flex-start;
+  align-items: center;  
+  /* background-color: aliceblue;  */
+  }
+ .title {
+  position: relative;
+  top: 25%;
+  color: aliceblue;
+  font-weight: 1000;
+  text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.6);
+  font-size: 4.5dvw;
+  z-index: 1000;
+ }
+ .title p{
+  text-align: center;
+  font-size: 2dvw;
+  letter-spacing: 0.5dvw;
+ }
+ 
+ .image{
+  position: relative;
+  top: -3%;
+  border-radius: 1.5dvh;
+  height: 70%;
+  width: 94%;
+  background: url('/images/homeCar.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ }
+ .marquee{
+   height: 15%;
+  width: 95%;
+  position: relative;
+  top: 0%;
+  background-color: #282828;
+  border-radius: 1.5dvh;
+  display: flex;
+  align-items: center;
+  gap: 1dvw;
+   overflow: hidden;
+  cursor: grabbing;
+    }
+
+ .marquee img{
+   border-radius: 1.6dvh;
+  margin-right: 2.5dvw;
+   box-shadow: 0 0 1dvw rgba(255, 255, 255, 0.122);
+  }
+
+  .marquee a{
+    border-radius: 1.6dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(46, 66, 119);
+    background-color: #282828;
+    color: antiquewhite;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.5dvw;
+    height: 90%;
+    width: 25%;
+    margin-left: 1dvw;
+    cursor: pointer;
+    text-decoration: none;
+     box-shadow: 0.5dvw 0.5dvw 1dvw rgba(208, 255, 0, 0.122);
+   }
+   .marquee a:hover{
+    scale: 1.02;
+    transition: 0.8s ease;
+   }

@@ -1,0 +1,84 @@
+.container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    overflow: hidden;
+  }
+
+  .main {
+    height: 90%;
+    width: 95%;
+    display: flex;
+     justify-content: center;
+     align-items: flex-start;
+    }  
+
+  .tableDiv{
+    position: relative;
+    top: 11%;
+    width: 95%;
+     display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  scrollbar-width: none;  
+  -ms-overflow-style: none;  
+  max-height: 88%; 
+ 
+  }
+  .tableDiv::-webkit-scrollbar{
+    display: none;  
+  }
+
+  .tables {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0.5dvh 0.5dvh 10dvh rgba(255, 255, 255, 0.429); 
+ }
+ 
+
+ .tables tbody tr:nth-child(odd) {
+    background-color: #000000;  
+}
+
+.tables tbody tr:nth-child(even) {
+    background-color: #02020245;  
+}
+
+.tables thead tr td{
+    border-top: none;
+}
+.tables tbody tr td,
+.tables thead tr th {
+     border-bottom: 0.1px solid #ffffff41;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.tables tbody tr:last-child td {
+    border-bottom:none;
+}
+
+ .tables thead tr th {
+    font-size: medium ;
+    font-style: italic;
+     color: white;
+     padding: 2dvh 0.4dvw;
+   }
+ .tables tbody tr td {
+    color: rgba(255, 255, 255, 0.533);
+    padding: 4dvh 0.4dvw;
+ }
+
+.tables tbody tr:hover {
+    background-color: #292603;
+    color: white;
+   }
+ 
+ .tables tbody tr:hover td {
+    color: white;
+} 
+
+ 
+ 

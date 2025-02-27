@@ -1,0 +1,183 @@
+.container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    overflow: hidden;
+  }
+
+  .main {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    }  
+
+   .contact{
+    position: relative;
+    color: white;
+    top: 12%;
+    height: 90%;
+    width: 92%;
+     display: flex;
+    }
+
+   .contact .left{
+    height: 100%;
+    border-radius: 1.6dvh;
+    width: 25%;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        color: aliceblue;
+   }
+   .contact .right{
+    height: 100%;
+    width: 75%;
+     padding: 1dvh 8dvh;
+     display: flex;
+     flex-direction: column;
+     gap: 4%;
+    }
+
+
+   .wrapper {
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 4dvh;
+   align-items: center;
+   margin-top: 1.8dvw;
+   margin-bottom: 1.5dvw;
+ }
+ 
+  .betterOutline::placeholder {
+   font-style: italic;
+ }
+ 
+ .betterOutline:focus {
+   --width: 3px;
+   --color: #020d71;
+   outline: transparent;
+   box-shadow: 0 0 0px var(--width) var(--color);
+ }
+ 
+  .betterOutline {
+     font-family: inherit;
+     font-size: 1.2dvw;
+     color: inherit;
+     border: none;
+     border-radius: 1dvw;
+     background-color: #333;
+     padding: 0.75rem 2rem;
+     box-shadow: none;
+     color: white;
+     transition: box-shadow 0.15s;
+   }
+
+ .message {
+  width: 100%;
+  max-width: 500px;
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+   font-family: 'Arial', sans-serif;
+   margin: 0 auto;
+}
+
+.message div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.message textarea {
+  width: 100%;
+  padding: 1dvh;
+  font-size: 2dvh;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  min-height: 20dvh;  
+   color: #333;
+}
+
+ .message textarea::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+ .message textarea:focus {
+  border-color: #5b9bd5;
+  outline: none;
+  box-shadow: 0 0 8px rgba(91, 155, 213, 0.5);
+}
+
+.message textarea:hover {
+  border-color: #aaa;
+}
+
+ .message textarea:valid {
+  border-color: #4caf50;
+}
+
+.message textarea:not(:placeholder-shown) {
+  background-color: #eaf4fc;
+}
+
+
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button button{
+    background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.889);
+  border-radius: 1dvh;
+  padding: 0.8dvh 1.15dvw;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+   font-size: 1dvw;
+   font-weight: 500;
+   font-style: italic;
+   
+ }
+.button button:hover{
+  box-shadow: 0 0 2dvw rgba(255, 255, 255, 0.585);
+  color: rgb(34, 37, 37);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 4dvh 7dvh;
+}
+.left div{
+ font-size: 3.5dvh;
+ padding-bottom: 5.5%;
+}
+.left p{
+  font-size: 2dvh;
+  padding-bottom: 3.5%;
+ }
+.left p a{
+  color: white;
+   text-decoration: underline;
+   cursor: pointer;
+ }
+.left p img{
+    cursor: pointer;
+ }
